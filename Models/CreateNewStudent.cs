@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebApi.Models
 {
-    public class Student
+    public class CreateNewStudent
     {
-        [Key]
-        public Guid Id { get; set; }
         [Required]
         public string FirstName {get; set;}
         [Required]
